@@ -4,7 +4,7 @@ export default function Comment({
   username,
   commentText,
   likeNum ,
-  replies,
+  replies ,
 }:any) {
   return (
     <div className="d-flex gap-2 my-2">
@@ -23,8 +23,8 @@ export default function Comment({
       <br />
       <span>จริงค่า</span> {commentText}
       <div className="d-flex align-items-center gap-1">
-        <img src="./like.svg" width={20}></img> {likeNum }
-        <span className="text-muted">999 คน</span>{replies}
+        <img src="./like.svg" width={20}></img> 
+        <span className="text-muted">999 คน</span>{replies}{likeNum }
       </div>
     </div>
   </div>

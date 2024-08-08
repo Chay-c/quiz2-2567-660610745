@@ -23,11 +23,12 @@ export default function Reply({
     <br />
     <span>จริงค้าบบบบบบบบ</span>{replyText}
     <div className="d-flex align-items-center gap-1">
-      <img src="./like.svg" width={20}></img>{likeNum}
-      <span className="text-muted">2 คน</span>
+      <img src="./like.svg" width={20}></img>
+      <span className="text-muted">2 คน</span>{likeNum}
     </div>
   </div>
 </div>
+
 );
 }
 
